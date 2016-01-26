@@ -1,0 +1,97 @@
+/*!
+ * Landing Page Play Kids
+ * January 2016
+ * Movile
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+
+
+h1 {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+h2 {
+
+    text-align: center;
+    font-family: Lato;
+    font-weight: 900;
+    font-style: normal;
+    color: #9961E8;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3.5em;
+    }
+     
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {  
+
+    p { font-size: 18px; }
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #ECECEC;
+    margin-top: 20px;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
